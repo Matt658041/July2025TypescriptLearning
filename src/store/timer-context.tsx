@@ -1,8 +1,8 @@
-import { createContext, useContext, useState, ReactNode, useReducer } from 'react';
+import { createContext, useContext,  ReactNode, useReducer } from 'react';
 
-type Timer = {
+export type Timer = {
     name: string;
-    duration: number; // in seconds
+    duration: number;
 };
 
 type TimersState = {
